@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-column {
+  width: 35%;
+}
+
+.right-column {
+  width: 65%;
+}
+
+.left-column, .right-column {
+  padding: 0.5em;
+}
+
+button {
+  padding: 0.2em 0.5em;
+}

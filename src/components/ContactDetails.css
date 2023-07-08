@@ -1,0 +1,30 @@
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+}
+
+.contact-details h2 {
+  font-size: 3em;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+.details p {
+  font-style: italic;
+}
+
+.details span {
+  font-style: normal;
+}
+
+.btns {
+  display: flex;
+  gap: 1em;
+}
