@@ -2,7 +2,7 @@ import { Contact as ContactInterface } from "../App"
 
 interface Props {
   contact: ContactInterface,
-  handleShowContactDetails: () => void
+  handleShowContactDetails: (param: any) => void
 }
 
 const Contact = ({ contact, handleShowContactDetails }: Props) => {

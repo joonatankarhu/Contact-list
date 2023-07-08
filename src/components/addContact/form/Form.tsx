@@ -20,7 +20,7 @@ const initState = {
 const Form = ({ contactList, setContactList }: Props) => {
   const [state, setState] = useState(initState)
 
-  const update = (e) => {
+  const update = (e: any) => {
     const target = e.currentTarget
     const randomId = Math.floor(Math.random() * 1000)
 
@@ -36,7 +36,7 @@ const Form = ({ contactList, setContactList }: Props) => {
     setState(initState)
   }
 
-  const submit = (e) => {
+  const submit = (e: any) => {
     e.preventDefault()
 
     setContactList(() => [state, ...contactList])

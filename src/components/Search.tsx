@@ -10,7 +10,7 @@ interface Props {
 const Search = ({ contactList, setIsSearching, setFilteredList }: Props) => {
   const [searchInput, setSearchInput] = useState('')
 
-  const handleChange = (e) => {
+  const handleChange = (e: any) => {
     const search = e.target.value.toLowerCase()
     setSearchInput(search)
   }
